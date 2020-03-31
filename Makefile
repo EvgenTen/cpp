@@ -1,7 +1,7 @@
 #!make -f
 
-CXX=clang++-9 
-CXXFLAGS=-std=c++2a
+CXX=g++ 
+CXXFLAGS=-std=c++17
 
 HEADERS=PhoneticFinder.hpp
 OBJECTS=PhoneticFinder.o
