@@ -69,8 +69,8 @@ try{
     if(word[j]==' '){
         throw word;}
     }}
-catch(...){
-      cout<< "illegal word"<<  endl;
+catch(exception ex){
+      cout<< "illegal word"<< ex.what() << endl;
   }
 
 string ltext= toLower(text);
